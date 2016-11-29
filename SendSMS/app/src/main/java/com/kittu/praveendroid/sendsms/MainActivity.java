@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void sendSMS(View v) {
         SmsManager sms = SmsManager.getDefault();
-        sms.sendTextMessage("8169086466", "8169086466", "SMS sent from App", null, null);
+        sms.sendTextMessage("MOBILENUMBER", "MOBILENUMBER", "SMS sent from App", null, null);
         // ("5556", null, "Hello from careerRide", null, null);
     }
 }
